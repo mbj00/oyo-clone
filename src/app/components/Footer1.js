@@ -9,7 +9,7 @@ function Footer1() {
             <Image src={'/footer.avif'} width={600} height={600} alt='...' className='w-[50vw] h-[35vw] object-cover' />
         </div>
         <div className='flex flex-col justify-center items-center mx-28'>
-            <h1 className='text-2xl font-bold p-5'>There's an OYO around. Always.</h1>
+            <h1 className='text-2xl font-bold p-5'>There&apos;s an OYO around. Always.</h1>
             <p className='p-4'>More Destinations. More Ease. More Affordable</p>
             <div className='flex p-4'>
                 <div className='p-5'>

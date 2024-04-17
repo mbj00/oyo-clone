@@ -15,7 +15,7 @@ import Footer2 from '../../components/Footer2';
 import Footer from '../../components/Footer';
 
 
-function page({ params }) {
+function Page({ params }) {
   const [hotel, setHotel] = useState('');
   let user = Cookies.get('user');
   useEffect(() => {
@@ -161,4 +161,4 @@ function page({ params }) {
   )
 }
 
-export default page
+export default Page
